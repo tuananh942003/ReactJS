@@ -113,6 +113,23 @@ let countWorkingDay = (employees)=> {
     }
 }
 
+bai 7
+    let add = (arr) => {
+        let max = arr[0];
+        for(let i =1;i<arr.length;i++) {
+            if(arr[i].salary > max.salary) {
+                max = arr[i];
+            }
+        } 
+        return max;
+    }
+
+console.log(add([
+    { id: 1, name: "John", salary: 2000 },
+    { id: 2, name: "Jane", salary: 2500 },
+    { id: 3, name: "Mark", salary: 3000 },
+]))
+
 
 
 
